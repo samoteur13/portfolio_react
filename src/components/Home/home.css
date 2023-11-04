@@ -1,0 +1,23 @@
+.home {
+  position: relative;
+}
+
+.home::before {
+  content: "";
+  background-image: url(../../../public/img/mer.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+
+h1 {
+  position: relative;
+  color: #ffffff;
+  font-size: 14rem;
+  line-height: 0.9;
+  text-align: center;
+}
